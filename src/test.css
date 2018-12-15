@@ -42,6 +42,7 @@ main section {
   flex: 7;
   display: flex;
   flex-wrap: wrap;
+  padding-right: 20px;
 }
 
 main aside {
@@ -50,12 +51,14 @@ main aside {
 }
 
 main article {
-  max-width: 33%;
+  width: 33%;
+  min-width: 33%;
+  box-sizing: border-box;
+  padding: 20px 0 0 20px;
 }
 
 main article > div:first-child {
-  height: 100px;
-  width: 100px;
+  min-height: 150px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -78,7 +81,13 @@ main article#item5 > div:first-child {
 } 
 main article#item6 > div:first-child {
   background-image: url('https://www.valtech.com/globalassets/images/cases/xylem/pexels-photo-26178.jpg?w=940&h=530&mode=crop');
-} 
+}
+
+main article h2 div {
+  color: #666;
+  font-size: 0.8em;
+  font-weight: normal;
+}
 
 
 footer {
