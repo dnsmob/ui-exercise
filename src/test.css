@@ -1,3 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 150px;
+  background: #729d39;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+header nav {
+  padding: 20px;
+}
+
+header nav a {
+  display: inline-block;
+  width: 60px;
+  background: #c6e377;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  font: bold 12px helvetica, arial, tahoma, sans;
+  text-transform: uppercase;
+  color: #000;
+  transition: all 0.2s;
+}
+
+header nav a:hover {
+  transform: scale(1.1, 1.1);
+}
+
 main {
   display: flex;
 }
