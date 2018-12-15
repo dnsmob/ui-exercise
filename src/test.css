@@ -1,0 +1,11 @@
+main {
+  display: flex;
+}
+
+main section {
+  flex: 7;
+}
+
+main aside {
+  flex: 3;
+}
