@@ -48,6 +48,11 @@ main section {
 main aside {
   flex: 3;
   background: #fbfad3;
+  transition: all 2s;
+}
+
+main aside.hide {
+  flex: 0;
 }
 
 main article {
